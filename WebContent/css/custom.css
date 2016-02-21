@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.flex-caption td {
+    background: rgba(161, 144, 100, 0.65);
+    vertical-align: middle;
+    border: none;
+    padding: 0;
+}
+
+.well {
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+.sans {
+    font-family: 'expressway', sans-serif;
+}
+
+.flex-caption td.top {
+    height: 235px;
+}
