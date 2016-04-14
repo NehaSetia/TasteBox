@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="ISO-8859-1"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>TasteBox-Tiffin Service</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap-responsive.min.css"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="css/custom.css">
+<script>
+              new WOW().init();
+              $(document).ready(function () {
+            	  $(".navbar-nav li a").click(function(event) {
+            	    $(".navbar-collapse").collapse('hide');
+            	  });
+            	});
+              </script>
+              <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+    animation: 'fade'
+   
+  });
+</script>
+
+</head>
+<body>
+
+
+<!----------------------------------navbar start------------------------------------------->
+<!-- <div class="row">
+<div class="col-xs-12  col-md-12"> -->
+	
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex1-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+                </button>
+					<a class="navbar-brand" href="#"><img alt="Brand" style="max-width:194px; max-height:150px;margin-top: -14px;"
+						src="images/logo29.png"> 
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#mealPlans"><b>Meal Plans</b>
+						</a></li>
+						<li><a href="#delivery"><b>Delivery Time & Area</b>
+						</a></li>
+						<li><a href="#subscriptions"><b>Subscriptions</b>
+						</a></li>
+						<li><a href="#contact"><b>Contact Us</b>
+						</a></li>
+						
+						<li><a><B><i class="fa fa-phone "></i> +91 8130035293</B></a></li>
+					</ul>
+				</div>
+
+			</nav>
+		
+	
+	<!-- </div>
+	</div> -->
+	
+	
+	<div class="container-block">
+	<!------------------------------slider start----------------------------------------------------------------------->
+	<div class="row" id="home" data-stellar-background-ratio="0.5" style="background-attachmet:fixed;overflow-x:hidden">
+	<div class="col-xs-12 col-md-12 flexslider">
+	<div>
+  <ul class="slides">
+    <li>
+      <img src="images/indexTaste.jpg" />
+    </li>
+    <li>
+      <img src="images/picture1.jpg" />
+    </li>
+    <li>
+      <img src="images/freshVeg.jpg" />
+    </li>
+  </ul>
+	</div>
+	</div>
+	</div>
+
+
+	<!--------------------------------------section MEALPLANS----------------------------------------->
+<div class="row" id="mealPlans" >
+ <div class="col-xs-12 col-md-12 " style="padding:5px 100px 10px 100px"> 
+ <div class="row"> 
+<div class="col-xs-12 col-md-12 wow  fadeInDown" align="center"
+					data-wow-duration="2s" >
+<h1>Meal Plans</h1>
+					<div class="divider"></div>
+					<p>See what is included in the Meal</p>
+					</div>
+					<div class="row">
+<div class="col-xs-12 col-md-2 col-md-offset-1">
+<div class="thumbnail wow fadeInLeft" data-wow-duration="2s" >
+ <img src="images/aloo-paratha.jpg" alt="...">
+      <div align="center" >
+        <h3>Breakfast</h3>
+        <p>Paranthas + curd/butter<br/>or<br/>Puri Aloo<br/>or<br/>Veg Sandwich<br/>or<br/>Bread Jam<br/></p>
+        <p><button class="btn btn-warning btn-lg btn-block wow slideInLeft" data-wow-duration="3s">Rs 50/-</button></p>
+      </div>
+    </div>
+
+</div>
+<div class="col-xs-12 col-md-2">
+<div class="thumbnail wow fadeInLeft" data-wow-duration="2s" >
+ <img src="images/meal2.jpg" alt="...">
+      <div align="center"  >
+        <h3>Lunch/ Dinner</h3>
+        <h4>(Super Light Meal)</h4>
+        <p > Seasonal Sabzi <br/>+<br/>5 Roti<br/>+<br/>Curd<br/></p>
+        <p><button class="btn btn-warning btn-lg btn-block wow slideInLeft" data-wow-duration="3s">Rs 60/-</button></p>
+      </div>
+    </div>
+
+</div>
+<div class="col-xs-12 col-md-2">
+<div class="thumbnail wow fadeInRight" data-wow-duration="1s" >
+ <img src="images/meal3.jpg" alt="...">
+      <div align="center" >
+        <h3 >Lunch / Dinner</h3>
+        <h4 >(Light Meal)</h4>
+        <p style="line-height: 15px">Dal<br/>+<br/>Seasonal Sabzi<br/>+<br/>5 Roti<br/>+<br/>Salad<br/><br/></p>
+        <p><button class="btn btn-warning btn-lg btn-block wow slideInRight" data-wow-duration="2s">Rs 80/-</button></p>
+      </div>
+    </div>
+
+</div>
+<div class="col-xs-12 col-md-2">
+<div class="thumbnail wow fadeInRight" data-wow-duration="1s" >
+ <img src="images/meal1.jpg" alt="...">
+      <div align="center" >
+        <h3 >Lunch / Dinner</h3>
+        <h4 >(Semi Light Meal)</h4>
+        <p style="line-height: 15px">Dal<br/>+<br/>Seasonal Sabzi<br/>+<br/>3 Roti<br/>+<br/>Rice<br/>+<br/>Salad</p>
+        <p><button class="btn btn-warning btn-lg btn-block wow slideInRight" data-wow-duration="2s">Rs 85/-</button></p>
+      </div>
+    </div>
+
+</div>
+<div class="col-xs-12 col-md-2">
+<div class="thumbnail wow fadeInRight" data-wow-duration="1s" >
+ <img src="images/meal4.jpg" alt="...">
+      <div align="center" >
+        <h3 >Lunch / Dinner</h3>
+        <h4 >(Full Meal)</h4>
+        <p style="line-height: 15px"><br/>Dal<br/>+<br/>Seasonal Sabzi<br/>+<br/>5 Roti<br/>+<br/>Rice<br/>+<br/>Salad<br/><br/></p>
+        <p><button class="btn btn-danger btn-lg btn-block wow slideInRight" data-wow-duration="2s">Rs 90/-</button></p>
+      </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+ </div> 
+ </div>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	<!----------------====================================section parallax1 -===============================------------->
+<!-- 	<div class="row" id="parallax-img-1" >
+		
+			<div class="col-xs-12 col-md-12">
+				<div data-stellar-background-ratio="0.5"
+					style="background: transparent  url(images/picture1.jpg) no-repeat top center fixed; height:400px; background-attachmet: fixed">
+				</div>
+			</div>
+		
+		</div> -->
+		
+		<div id="add-on" class="trans-background1" style="">
+		<div style="padding:30px 30px 30px 30px">
+		<div class="row">
+		<div align="center" class="col-xs-12 col-md-12 wow  fadeInDown">
+		<h2>Add Ons</h2>
+		To satisfy your sweet tooth!
+		</div>
+		</div>
+		<div class="row">
+<div class="col-xs-6 col-md-4 col-md-offset-2" style="padding:30px 10px 20px 10px">
+<div class=" wow fadeInLeft" data-wow-duration="2s" >
+      
+        <p><button class="btn btn-danger btn-lg btn-block wow slideInLeft btn-responsive"  data-wow-duration="3s">Raita of the day <br/>Rs 20/-</button></p>
+      
+    </div>
+
+</div>
+
+<div class="col-xs-6 col-md-4" style="padding:30px 10px 20px 10px">
+<div class=" wow fadeInLeft" data-wow-duration="2s">
+      
+        <p><button class="btn btn-danger btn-lg btn-block wow slideInLeft btn-responsive" data-wow-duration="3s">Sweet of the Day <br/>Rs 30/-</button></p>
+    
+    </div>
+</div>
+</div>
+</div>
+		</div>
+		
+		
+		
+		
+	<!----------------====================================section Delivery -===============================------------->	
+	<div class="row">
+	<div class="col-xs-12 col-md-12">
+	<div align="center" class="wow  fadeInDown" data-wow-duration="2s">
+	<h1>Delivery Time and Area</h1>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-xs-12 col-md-4 col-md-offset-2">
+	<div class="thumbnail wow fadeInLeft" data-wow-duration="2s" >
+	<div align="center" style="padding:0px 10px 0px 10px">
+	       <h3>Delivery Area</h3>
+        <p>Sector-28</p>
+        <p>Sector-43</p>
+        <p>Sector-44</p>
+        <p>Sector-46</p>
+        <p>Sector-47</p>
+        <p>Sector-51 To 57</p>
+  <button class="btn btn-warning btn-lg btn-block wow slideInLeft btn-responsive " data-wow-duration="3s" >Currently delivering to Gurgaon only</button>
+  </div>
+	</div>
+	</div>
+	<div class="col-xs-12 col-md-4">
+	<div class="thumbnail wow fadeInRight" data-wow-duration="1s">
+	    <div align="center" style="padding:0px 10px 0px 10px">
+        <h3>Delivery Time</h3>
+        <p><button class="btn btn-warning btn-lg btn-block wow fadeInRight btn-responsive" data-wow-duration="2s">Breakfast - 8 am</button></p>
+         <p><button class="btn btn-warning btn-lg btn-block wow fadeInRight btn-responsive" data-wow-duration="3s">Lunch - 12:30 pm</button></p>
+          <p><button class="btn btn-danger btn-lg btn-block wow fadeInRight btn-responsive" data-wow-duration="1s">Dinner - 8 pm</button></p>
+         
+         <div style="padding:1px 0px 0px 0px"> <h4 class=" wow fadeInRight" data-wow-duration="3s" >Pre ordering is required 2 hrs prior to the meal delivery time</h4></div>
+          
+      </div>
+	</div>
+	</div>
+	</div>
+		<!--=====================================Section subscription===============--------------------------------------->
+		<!-- <section data-stellar-background-ratio="0.5"
+			style="background: url(images/freshVeg.jpg) no-repeat top center fixed; height: 400px; backgroung-size: cover; max-width: 100%;background-attachmet: fixed">
+		</section> -->
+		
+		<div id="subscriptions " class="trans-background" style=" ">
+		<div class="row" align="center">
+		<div style=" padding:30px 30px 50px 30px" class="col-md-12 col-xs-12">
+		<div class="wow  fadeInDown">
+		<h1>Subscriptions</h1>	
+		<h5>you can benefit from these deals-</h5>
+		</div>
+		<div ><h2><i class="fa fa-gift"></i>&nbsp;Pay for 30 Meals and get 3 extra complimentary meals</h2></div>
+		<div ><h2><i class="fa fa-gift"></i>&nbsp;Pay for 15 Meals and get 1 extra complimentary meal</h2></div>
+		<BR/>
+	   <div ><h3><i class="fa fa-smile-o"></i>&nbsp;Meal Deals are on per meal basis.</h3></div>
+		<h4>That means We will serve you mentioned number of meals not Days , as many tiffin services do.<br/>
+		You can choose when to eat a meal and when not to.</h4>
+		</div>
+		</div>
+		</div>
+		
+		
+		<!--------------================================Section Contact us=====================------------------------------>
+		      <section id="contact" >
+            <div class="container">
+                <div align="center" class="wow  fadeInDown">
+                    <h1>Support</h1>
+                   
+                    <p>For more info and support, contact us!</p>
+                </div>
+               
+                <br/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row" align="center">
+                            <div class="col-md-3 wow  fadeInLeft">
+                                    <i class="fa fa-map-marker fa-2x"></i>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            Ardee City
+                                            Sector-52
+                                            Gurgaon
+                                          </h4>                                
+                                    </div>
+							</div>
+							<div class="col-md-3 wow  fadeInDown">                                
+                                    <i class="fa fa-envelope fa-2x"></i>
+                                    <div >
+
+                                        <h4 >
+                                            <a href="mailto:rezulmachhral@gmail.com">rezulmachhral@gmail.com</a>
+                                        </h4>                                                                                
+                                    </div>
+							</div>
+							<div class="col-md-3 wow  fadeInDown">                                
+                                        <i class="fa fa-phone fa-2x"></i>
+                                    <div >
+                                        <h4 >+91&nbsp;8130035293 </h4>
+                                       
+                                    </div>
+                            </div>
+                            <div class="col-md-3 wow  fadeInDown">                                
+                                        <i class="fa  fa-facebook-square fa-2x"></i>
+                                    <div >
+                                    <h4>
+                                        <a href="https://www.facebook.com/tasteboxmeals/" target="_blank">like us,for more updates! </a>
+                                     </h4>  
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <BR/>
+		
+		<hr>
+		
+		<!------=================================section footer================================------------------------->
+        <div id="footer">
+  <div class="container"  align="center">
+<p>TasteBox &copy; 2016</p>  </div>
+</div>
+
+</div>
+
+
+		<script src="js/jquery.stellar.min.js"></script>
+		<script>$.stellar();</script>
+</body>
+</html>
