@@ -225,15 +225,15 @@
                                     <div >
 
                                         <h4 >
-                                            <a href="mailto:praveen.yadav@spicebox.in">media: neha.setia@gmail.com</a>
+                                            <a href="mailto:">media:</a>
                                         </h4>                                                                                
                                     </div>
 							</div>
 							<div class="col-md-4 wow  fadeInRight">                                
                                         <i class="fa fa-phone fa-2x"></i>
                                     <div >
-                                        <h4 >7364747588 : business</h4>
-                                        <h4 >7364747588 : general</h4>
+                                        <h4 >73647475 : business</h4>
+                                        <h4 >73647475 : general</h4>
                                     </div>
                             </div>
                         </div>
